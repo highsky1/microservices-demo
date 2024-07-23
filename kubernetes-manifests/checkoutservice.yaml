@@ -42,7 +42,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: checkoutservice
+          image: cndc.acloud.run/online-boutique/checkoutservice:v-20240723-212227
           ports:
           - containerPort: 5050
           readinessProbe:

@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: cartservice
+        image: cndc.acloud.run/online-boutique/cartservice:v-20240723-211549
         ports:
         - containerPort: 7070
         env:

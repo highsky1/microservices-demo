@@ -77,7 +77,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: loadgenerator
+        image: cndc.acloud.run/online-boutique/loadgenerator:v-20240723-215028
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"

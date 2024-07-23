@@ -44,7 +44,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: frontend
+          image: cndc.acloud.run/online-boutique/frontend:v-20240723-214329
           ports:
           - containerPort: 8080
           readinessProbe:

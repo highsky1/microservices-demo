@@ -42,7 +42,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: shippingservice
+        image: cndc.acloud.run/online-boutique/shippingservice:v-20240723-221433
         ports:
         - containerPort: 50051
         env:

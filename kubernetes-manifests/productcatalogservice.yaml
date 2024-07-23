@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: productcatalogservice
+        image: cndc.acloud.run/online-boutique/productcatalogservice:v-20240723-220120
         ports:
         - containerPort: 3550
         env:

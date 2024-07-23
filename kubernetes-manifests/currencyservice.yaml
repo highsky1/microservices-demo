@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: currencyservice
+        image: cndc.acloud.run/online-boutique/currencyservice:v-20240723-212945
         ports:
         - name: grpc
           containerPort: 7000

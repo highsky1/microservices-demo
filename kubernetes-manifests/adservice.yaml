@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: adservice
+        image: cndc.acloud.run/online-boutique/adservice:v-20240723-174028
         ports:
         - containerPort: 9555
         env:

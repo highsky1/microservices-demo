@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: paymentservice
+        image: cndc.acloud.run/online-boutique/paymentservice:v-20240723-215403
         ports:
         - containerPort: 50051
         env:

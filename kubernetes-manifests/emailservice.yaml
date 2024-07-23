@@ -43,7 +43,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: emailservice
+        image: cndc.acloud.run/online-boutique/emailservice:v-20240723-213806
         ports:
         - containerPort: 8080
         env:
